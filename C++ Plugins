@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int age=18;
+    string Name;
+    cout<<"Enter your age ";
+    cin>>age;
+    cout<<"Enter your Full name ";
+    cin>>Name;
+    cout<<"Your name is "<<Name<<" and you are "<<age<<"years of age as recorded";
+    getchar();
+	return 0;
+}
